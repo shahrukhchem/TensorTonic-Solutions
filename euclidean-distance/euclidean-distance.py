@@ -9,6 +9,5 @@ def euclidean_distance(x, y):
     y= np.array(y)
     d=x-y
     d=d**2
-    
     return np.sqrt(np.sum(d))
     # Write code her
